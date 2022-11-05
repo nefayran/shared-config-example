@@ -1,0 +1,4 @@
+{
+  "extends": "@shared-config-example/ts-config/tsconfig.json",
+  "include": ["src", "./.eslintrc.cjs"],
+}

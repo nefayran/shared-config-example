@@ -1,0 +1,20 @@
+{
+    "name": "shared-config-example",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "packages/**" 
+    ],
+    "scripts": {
+        "lint:check": "pnpm --parallel lint:check",
+        "lint:fix": "pnpm --parallel lint:fix",
+        "test:unit": "pnpm --parallel test:unit",
+        "build": "pnpm --parallel build"
+    },
+    "devDependencies": {
+        "eslint": "^8.26.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.2.0",
+        "prettier": "^2.7.1"
+    }
+}

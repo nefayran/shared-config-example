@@ -1,0 +1,11 @@
+{
+    "name": "@shared-config-example/ts-config",
+    "version": "1.0.0",
+    "description": "Typescript config",
+    "main": "tsconfig.json",
+    "files": ["tsconfig.json"],
+    "peerDependencies": {
+      "typescript": ">= 4"
+    }
+  }
+  

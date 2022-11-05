@@ -1,0 +1,10 @@
+{
+    "name": "@shared-config-example/prettier-config",
+    "version": "1.0.0",
+    "description": "Prettier Config",
+    "main": "index.js",
+    "files": ["index.js"],
+    "peerDependencies": {
+        "prettier": ">=2.0.0"
+    }
+}
